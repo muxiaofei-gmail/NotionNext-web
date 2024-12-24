@@ -261,9 +261,9 @@ const CONFIG = {
   STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
   STARTER_BRANDS: [
     {
-      IMAGE: '/images/starter/brands/graygrids.svg',
-      IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
-      URL: 'https://graygrids.com/',
+      IMAGE: '/images/starter/brands/douyin-white.svg',
+      IMAGE_WHITE: '/images/starter/brands/douyin-white.svg',
+      URL: 'https://douyin.com/',
       TITLE: 'graygrids'
     },
     {

@@ -261,34 +261,34 @@ const CONFIG = {
   STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
   STARTER_BRANDS: [
     {
-      IMAGE: '/images/starter/brands/douyin-white.svg',
-      IMAGE_WHITE: '/images/starter/brands/douyin-white.svg',
+      IMAGE: '/images/starter/brands/douyin-white.png',
+      IMAGE_WHITE: '/images/starter/brands/douyin-white.png',
       URL: 'https://douyin.com/',
-      TITLE: 'graygrids'
+      TITLE: 'douyin'
     },
     {
-      IMAGE: '/images/starter/brands/lineicons.svg',
-      IMAGE_WHITE: '/images/starter/brands/lineicons-white.svg',
-      URL: 'https://lineicons.com/',
-      TITLE: 'lineicons'
+      IMAGE: '/images/starter/brands/bilibili-white.png',
+      IMAGE_WHITE: '/images/starter/brands/bilibili-white.png',
+      URL: 'https://bilibili.com/',
+      TITLE: 'bilibili'
     },
     {
-      IMAGE: '/images/starter/brands/uideck.svg',
-      IMAGE_WHITE: '/images/starter/brands/uideck-white.svg',
-      URL: 'https://uideck.com/',
-      TITLE: 'uideck'
+      IMAGE: '/images/starter/brands/weibo-white.png',
+      IMAGE_WHITE: '/images/starter/brands/weibo-white.png',
+      URL: 'https://weibo.com/',
+      TITLE: 'weibo'
     },
     {
-      IMAGE: '/images/starter/brands/ayroui.svg',
-      IMAGE_WHITE: '/images/starter/brands/ayroui-white.svg',
-      URL: 'https://ayroui.com/',
-      TITLE: 'ayroui'
+      IMAGE: '/images/starter/brands/xiaohongshu-white.png',
+      IMAGE_WHITE: '/images/starter/brands/xiaohongshu-white.png',
+      URL: 'https://xiaohongshu.com/',
+      TITLE: 'xiaohongshu'
     },
     {
-      IMAGE: '/images/starter/brands/tailgrids.svg',
-      IMAGE_WHITE: '/images/starter/brands/tailgrids-white.svg',
-      URL: '"https://tailgrids.com/',
-      TITLE: 'tailgrids'
+      IMAGE: '/images/starter/brands/jike-white.png',
+      IMAGE_WHITE: '/images/starter/brands/jike-white.png',
+      URL: 'https://www.okjike.com/',
+      TITLE: 'jike'
     }
   ],
 

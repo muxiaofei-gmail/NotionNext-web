@@ -72,16 +72,27 @@ export const Footer = props => {
                   扫描二维码添加客服微信在线咨询。
                 </p>
                 {/* 展示两条最新博客文章 */}
-                <div className='flex flex-col gap-8 items-center'>
-                  <div
-                    className="mb-4 sm:mb-8 h-[100px] w-[100px] flex justify-center items-center"
-                  >
-                    <img
-                      src={siteConfig('STARTER_WX', null, CONFIG)}
-                      alt="about image"
-                      className="h-[100px] w-[100px] object-cover object-center"
-                    />
-                  </div>
+                <div className='flex flex-col gap-8'>
+                  {latestPosts?.map((item, index) => {
+                    return (
+                      <a
+                        key={index}
+                        href={item?.href}
+                        className='group flex items-center gap-[22px]'>
+                        {item.pageCoverThumbnail && (
+                          <div className='overflow-hidden rounded w-20 h-12'>
+                            <img
+                              src={item.pageCoverThumbnail}
+                              alt={item.title}
+                            />
+                          </div>
+                        )}
+                        <span className='line-clamp-2 max-w-[180px] text-base text-gray-7 group-hover:text-white'>
+                          {item.title}
+                        </span>
+                      </a>
+                    )
+                  })}
                 </div>
               </div>
             </div>

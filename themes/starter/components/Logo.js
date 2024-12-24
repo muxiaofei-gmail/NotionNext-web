@@ -60,13 +60,13 @@ export const Logo = props => {
           />
         )}
         {/* logo文字 */}
-        <span
+       /** <span
           onClick={() => {
             router.push('/')
           }}
           className={`${logoTextColor} logo dark:text-white py-1.5 header-logo-text whitespace-nowrap text-2xl font-semibold`}>
           {siteConfig('TITLE')}
-        </span>
+        </span> */
       </div>
     </div>
   )

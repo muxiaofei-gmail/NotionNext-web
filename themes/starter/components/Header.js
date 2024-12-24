@@ -18,7 +18,7 @@ export const Header = props => {
   const router = useRouter()
   const { isDarkMode } = useGlobal()
   const [buttonTextColor, setColor] = useState(
-    router.route === '/' ? 'text-black' : ''
+    router.route === '/' ? 'text-white' : ''
   )
 
   const enableClerk = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY

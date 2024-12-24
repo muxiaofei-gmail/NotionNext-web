@@ -344,7 +344,8 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_BLOG_LATEST_TITLE: '最新文章',
+  STARTER_FOOTER_BLOG_LATEST_TITLE: '联系我们',
+  STARTER_WX: '/images/starter/logo/wx1.png',
 
   STARTER_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
   STARTER_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',

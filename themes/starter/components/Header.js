@@ -25,7 +25,7 @@ export const Header = props => {
 
   useEffect(() => {
     if (isDarkMode || router.route === '/') {
-      setColor('text-black')
+      setColor('text-white')
     } else {
       setColor('')
     }

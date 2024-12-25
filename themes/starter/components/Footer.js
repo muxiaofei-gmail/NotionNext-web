@@ -1,5 +1,6 @@
 import { siteConfig } from '@/lib/config'
 import SocialButton from '@/themes/fukasawa/components/SocialButton'
+import CONFIG from '../config'
 import { Logo } from './Logo'
 import { SVGFooterCircleBG } from './svg/SVGFooterCircleBG'
 
@@ -72,28 +73,7 @@ export const Footer = props => {
                   扫描二维码添加客服微信在线咨询。
                 </p>
                 {/* 展示两条最新博客文章 */}
-                <div className='flex flex-col gap-8'>
-                  {latestPosts?.map((item, index) => {
-                    return (
-                      <a
-                        key={index}
-                        href={item?.href}
-                        className='group flex items-center gap-[22px]'>
-                        {item.pageCoverThumbnail && (
-                          <div className='overflow-hidden rounded w-20 h-12'>
-                            <img
-                              src={item.pageCoverThumbnail}
-                              alt={item.title}
-                            />
-                          </div>
-                        )}
-                        <span className='line-clamp-2 max-w-[180px] text-base text-gray-7 group-hover:text-white'>
-                          {item.title}
-                        </span>
-                      </a>
-                    )
-                  })}
-                </div>
+
               </div>
             </div>
           </div>

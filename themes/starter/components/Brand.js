@@ -20,7 +20,7 @@ export const Brand = () => {
                   <img
                     src={item.IMAGE}
                     alt={item.TITLE}
-                    className='dark:hidden transform transition-transform duration-300 hover:scale-110'
+                    className='dark:hidden transform transition-transform duration-300 ease-in-out hover:scale-110'
                   />
                   <img
                     src={item.IMAGE_WHITE}

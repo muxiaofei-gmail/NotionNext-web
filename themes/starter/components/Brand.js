@@ -16,7 +16,7 @@ export const Brand = () => {
           <div className='-mx-4 flex flex-wrap items-center justify-center gap-8 xl:gap-11'>
             {brands?.map((item, index) => {
               return (
-                <a key={index} href={item.URL}>
+                <a key={index} href={item.URL} className="group">
                   <img
                     src={item.IMAGE}
                     alt={item.TITLE}
